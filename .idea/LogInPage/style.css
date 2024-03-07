@@ -1,0 +1,36 @@
+body{
+    background-color:ForestGreen;
+    }
+#Elements{
+    position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+
+
+    }
+#LogIn{
+
+    color: white;
+    font-family: Comic Sans MS;
+    font-size:4em
+    }
+.labels{
+    color: white;
+    font-family: Comic Sans MS;
+     }
+
+#loginButton{
+    color: white;
+        background-color: Lime;
+        font-size : 1em;
+        padding : 10px 20px;
+        border-radius:10px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        }
+
+#loginButton:hover{
+    background-color: SkyBlue;
+    }
